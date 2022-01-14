@@ -1,0 +1,28 @@
+h3{
+    font-size: 50px !important;
+    font-family: 'Josefin Slab', serif;
+    color: white;
+}
+h4{
+    font-family: 'Josefin Slab', serif;
+    color: whitesmoke;
+}
+.btn-success:hover{
+    background-color: darkgreen;
+}
+canvas{
+    animation-name: dunno;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+}
+@keyframes dunno {
+    0%   {box-shadow: 2px 2px 100px rgb(255, 255, 96);}
+    25%  {box-shadow: 2px 2px 100px rgb(255, 170, 14);}
+    50%  {box-shadow: 2px 2px 100px rgb(255, 58, 58);}
+    75%  {box-shadow: 2px 2px 100px rgb(151, 2, 2);}
+    90%  {box-shadow: 2px 2px 100px rgb(255, 255, 96);}
+  }
+body{
+    background: url("background.jpg");
+    background-size:cover;
+}
