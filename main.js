@@ -67,7 +67,7 @@ function gotPoses(results){
         earlefty = results[0].pose.leftEar.y +25;
         earightx = results[0].pose.rightEar.x -25;
         earighty = results[0].pose.rightEar.y +25;
-        neckx = results[0].pose.leftShoulder.x -200;
+        neckx = results[0].pose.leftShoulder.x -180;
         necky = results[0].pose.rightShoulder.y -60;
     }}
 function draw(){
@@ -88,5 +88,5 @@ function draw(){
 }
 
 function take_snapshot(){
-    save("imTHUG.png");
+    save("I choose to be a "+ filtah_name+".png");
 }
